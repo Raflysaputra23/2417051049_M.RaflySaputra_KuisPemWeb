@@ -23,31 +23,32 @@ body {
     padding: 30px 20px;
 }
 
-.container img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #eaeaea;
-}
-
 .container .logo {
-    display: flex;
-    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #b0b0b0fa;
+    margin: auto;
 }
 
 
 .title {
-    margin: 14px 0px 14px 0px;
+    margin: 18px 0px 18px 0px;
 }
 
 .title h1 {
-    font-size: 28px;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.title p {
+    color: #a3a1a1;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
 }
 
 .form-input {
@@ -57,9 +58,10 @@ body {
 }
 
 .form-input .input {
-    padding: 6px 6px;
+    padding: 8px 8px;
     border-radius: 6px;
     border: 1px solid #827c7c;
+    font-size: 14px;
 }
 
 .form-input label {
@@ -74,8 +76,13 @@ body {
     margin: 14px 0px;
 }
 
+.form-ingat a {
+    color: #000;
+    text-decoration: none;
+}
+
 .btn-submit {
-    padding: 8px 0px;
+    padding: 10px 0px;
     background-color: #000;
     color: #fff;
     border-radius: 6px;
